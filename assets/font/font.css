@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-SEMIBOLD.OTF") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-SEMIBOLD-Italic.OTF") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-LIGHT.OTF") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-LIGHT-ITALIC.OTF") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-REGULAR.OTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-REGULAR-ITALIC.OTF") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-BOLD.OTF") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("PROXIMA-NOVA-BOLD-ITALIC.OTF") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

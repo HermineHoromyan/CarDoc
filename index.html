@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==================== -META-TAG-SEO-START- ==================== -->
+    <meta name="copyright" content="Информация о вашей фирме">
+    <meta name="keywords" content="Ваши ключевые слова">
+    <meta name="description" content="Описание Вашей страницы">
+    <!-- ==================== -META-TAG-SEO-END- ==================== -->
+    <title>CarDoc</title>
+    <link rel="icon" href="assets/img/favicon/fav-logo.png">
+    <!-- ==================== -LINKS-PLUGIN-START- ==================== -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <!-- ===================== -LINKS-PLUGIN-END- ===================== -->
+    <!-- ====================== -LINKS-MY-START- ====================== -->
+    <link rel="stylesheet" href="assets/style/static-root.css">
+    <link rel="stylesheet" href="assets/style/flexbox.css">
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/media.css">
+    <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+
+<body>
+    <!-- ===================== -HTML5-HEADER-START- ====================== -->
+    <header class="header-absolute">
+        <div class="container_fluid">
+            <div class="header-home  d_flex j_content_between a_items_center">
+                <div class="header-home__nav">
+                    <div class="header-menu">
+                        <div class="open-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="for-mobile-bg"></div>
+                        <div class="menu-cnt">
+                            <div id="mySidenav" class="sidenav ">
+                                <div class="header-arkhangelsk__block d_none d_flex j_content_center a_items_center">
+                                    <a href="#">вход </a>
+                                    <span>/ </span>
+                                    <a href="#"> регистрация</a>
+                                </div>
+                                <ul class="d_flex a_items_center j_content_between f_wrap">
+                                    <li><a href="#">автосервисам</a></li>
+                                    <li><a href="#">Помощь</a></li>
+                                    <li><a href="#">новости</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-home__logo">
+                    <a href="#" class="d_flex j_content_between a_items_start">
+                        <div class="header-home__img__logo">
+                            <img src="assets/img/favicon/vector-smart.png" alt="png">
+                        </div>
+                        <div class="header-home__logo__text">
+                            <img src="assets/img/favicon/Vector-logo.png" alt="png">
+                        </div>
+                    </a>
+                </div>
+                <div class="header-arkhangelsk d_flex j_content_between ">
+                    <div class="header-arkhangelsk-min d_flex  a_items_center">
+                        <div class="header-arkhangelsk-cnt">
+                            <a href="#">Архангельск</a>
+                        </div>
+                        <div class="filter-box">
+                            <div class="filter-box__input">
+                                <label>
+                                    <div class="filter-box__input_search">
+                                        <img src="assets/img/icons/search.png" alt="png">
+                                    </div>
+                                    <input id="filterInput" onkeyup="myFunction()" placeholder="Введите название города">
+                                </label>
+                            </div>
+                            <div class="filter-box__list">
+                                <ul id="filterList">
+                                    <li><a href="#">Губкин</a></li>
+                                    <li><a href="#">Гудермес</a></li>
+                                    <li><a href="#"> Гуково</a></li>
+                                    <li><a href="#">Гусь-Хрустальный</a></li>
+                                    <li><a href="#">Дербент</a></li>
+                                    <li><a href="#">Дзержинск</a></li>
+                                    <li><a href="#">Димитровград</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Гусь-Хрустальный</a></li>
+                                    <li><a href="#">Дербент</a></li>
+                                    <li><a href="#">Дзержинск</a></li>
+                                    <li><a href="#">Димитровград</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-arkhangelsk__block d_flex j_content_center a_items_center">
+                        <a href="#">вход </a>
+                        <span>/ </span>
+                        <a href="#"> регистрация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ====================== -HTML5-HEADER-END- ======================= -->
+    <!-- ====================== -HTML5-LEAVE-REQUEST-START- ======================= -->
+    <section class="leave-request__bg leave-top__section img-static" style="background-image: url('assets/img/final/cars.png')">
+        <div class="container">
+            <div class="leave-request__min d_flex j_content_center a_items_center">
+                <div class="leave-request__info">
+                    <div class="leave-request__title">
+                        <h1>Оставьте заявку и получите предложения
+                            по ремонту от автосервисов!</h1>
+                        <p>Выбирайте <strong> самое выгодное </strong>предложение и <strong> экономьте до 42% </strong>от стоимости ремонта!</p>
+                    </div>
+                    <div class="leave-request__block d_flex j_content_between a_items_center">
+                        <form>
+                            <label>
+                                <input type="text" placeholder="Я хочу отремонтировать...">
+                                <div class="leave-request__block__but btn-bg">
+                                    <button>Создать заявку</button>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+                    <div class="leave-request__text">
+                        <p>Например: <a href="" #>замена ступицы</a> или <a href="#"> заправка кондиционера</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mouser-dun" data-scroll="five_steps">
+            <div class="mouser-dun__icon d_flex j_content_center a_items_center f_direction_column">
+                <div class="mouser-dun-arrow"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================== -HTML5-LEAVE-REQUEST-END- ======================= -->
+    <!-- =================== -HTML5-FIVE-STEPS-START- ==================== -->
+    <section class="five-steps" id="five_steps">
+        <div class="container">
+            <div class="five-steps__content">
+                <div class="five-steps__title d_flex j_content_between a_items_center">
+                    <div class="section-title d_flex j_content_between a_items_center">
+                        <i>5</i>
+                        <h3>Простых шагов <strong>от заявки до ремонта вашего авто!</strong></h3>
+                    </div>
+                    <div class="reviews d_flex a_items_center j_content_center">
+                        <a href="#" class="d_flex j_content_between a_items_center">
+                            <div class="reviews-icon">
+                                <svg>
+                                    <use xlink:href="assets/img/svg/icons.svg#chat"></use>
+                                </svg>
+                            </div>
+                            <p>1445 отзывов об автосервисах</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="five-steps__list d_flex f_wrap">
+                    <div class="five-steps__block--main">
+                        <div class="five-steps__block">
+                            <div class="five-steps__img" style="background-image: url('assets/img/five-steps/block1.png')">
+                            </div>
+                            <p>Вы оставляете
+                                свою заявку
+                                на сайте CarDoc</p>
+                            <span>Заполняете название работ и их краткое описание</span>
+                        </div>
+                    </div>
+                    <div class="five-steps__block--main">
+                        <div class="five-steps__block">
+                            <div class="five-steps__img" style="background-image: url('assets/img/five-steps/block2.png')">
+                            </div>
+                            <p>Получаете предложения от автосервисов в вашем городе</p>
+                            <span>Сравнивайте цены, описания, задавайте вопросы!</span>
+                        </div>
+                    </div>
+                    <div class="five-steps__block--main">
+                        <div class="five-steps__block">
+                            <div class="five-steps__img" style="background-image: url('assets/img/five-steps/block3.png')">
+                            </div>
+                            <p>Выбираете самые выгодные предложения из списка</p>
+                            <span>Сравнивайте цены, описания, задавайте вопросы!</span>
+                        </div>
+                    </div>
+                    <div class="five-steps__block--main">
+                        <div class="five-steps__block">
+                            <div class="five-steps__img" style="background-image: url('assets/img/five-steps/block4.png')">
+                            </div>
+                            <p>Утверждаете автосервис, договариваетесь о времени</p>
+                            <span>Информируем вас по E-mail, SMS или в личном кабинете</span>
+                        </div>
+                    </div>
+                    <div class="five-steps__block--main">
+                        <div class="five-steps__block">
+                            <div class="five-steps__img" style="background-image: url('assets/img/five-steps/block5.png')">
+                            </div>
+                            <p>Получаете качественный ремонт авто с экономией до 42%</p>
+                            <span>Сравнивайте цены, описания, задавайте вопросы!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== -HTML5-FIVE-STEPS-END- ===================== -->
+    <!-- =================== -HTML5-AUTO-SERVICE-START- ================== -->
+    <section class="auto-service">
+        <div class="container">
+            <div class="auto-service__block">
+                <div class="section-title d_flex j_content_center">
+                    <h3>Акции наших <strong>автосервисов</strong></h3>
+                </div>
+                <div class="auto-service__slide">
+                    <div class="auto-service__slide--js d_flex">
+                        <div class="auto-service-block-js">
+                            <div class="slider-block">
+                                <div class="auto-service__img d_flex j_content_end f_direction_column" style="background-image: url('assets/img/auto-service/slide1.png')">
+                                    <h6>Запишитесь на комплексное ТО
+                                        и получите воздушный фильтр в подарок!</h6>
+                                    <p>Автосервис: <strong><a href="#">BRC Autotech </a> (304 отзывов)</strong></p>
+                                    <div class="btn-bg auto-service__btn">
+                                        <button>узнать больше</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auto-service-block-js">
+                            <div class="slider-block">
+                                <div class="auto-service__img d_flex j_content_end f_direction_column" style="background-image: url('assets/img/auto-service/slide2.png')">
+                                    <h6>Бесплатная диагностика ходовой до
+                                        конца лета!</h6>
+                                    <p>Автосервис: <strong><a href="#">BRC Autotech </a> (304 отзывов)</strong></p>
+                                    <div class="btn-bg auto-service__btn">
+                                        <button>узнать больше</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auto-service-block-js">
+                            <div class="slider-block">
+                                <div class="auto-service__img d_flex j_content_end f_direction_column" style="background-image: url('assets/img/auto-service/slide1.png')">
+                                    <h6>Запишитесь на комплексное ТО
+                                        и получите воздушный фильтр в подарок!</h6>
+                                    <p>Автосервис: <strong><a href="#">BRC Autotech </a> (304 отзывов)</strong></p>
+                                    <div class="btn-bg auto-service__btn">
+                                        <button>узнать больше</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auto-service-block-js">
+                            <div class="slider-block">
+                                <div class="auto-service__img d_flex j_content_end f_direction_column" style="background-image: url('assets/img/auto-service/slide2.png')">
+                                    <h6>Бесплатная диагностика ходовой до
+                                        конца лета!</h6>
+                                    <p>Автосервис: <strong><a href="#">BRC Autotech </a> (304 отзывов)</strong></p>
+                                    <div class="btn-bg auto-service__btn">
+                                        <button>узнать больше</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-br auto-service__block--btn d_flex j_content_center">
+                    <button>смотреть все акции</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== -HTML5-AUTO-SERVICE-END- =================== -->
+    <!-- ==================== -HTML5-PARTNERSHIP-START- ================== -->
+    <section class="partnership" style="background-image: url('assets/img/partnership/bg.png')">
+        <div class="container">
+            <div class="partnership-list">
+                <div class="section-title">
+                    <h3><strong>Приглашаем автосервисы</strong> к <br> сотрудничеству на площадке <i>CarDoc</i></h3>
+                </div>
+                <p>Заполните анкету и предлагайте пользователям свои услуги!</p>
+                <div class="btn-bg partnership-btn">
+                    <button>присоединиться к cardoc</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== -HTML5-PARTNERSHIP-END- ==================== -->
+    <!-- ====================== -HTML5-OFFER-START- ====================== -->
+    <section class="offer">
+        <div class="container">
+            <div class="offer-list">
+                <div class="section-title">
+                    <h3>Пока вы думаете,<strong> другие автовладельцы</strong><br> получают выгодные предложения!</h3>
+                </div>
+                <div class="offer-block">
+                    <div class="offer-block__type">
+                        <div class="car-model d_flex j_content_between a_items_center">
+                            <div class="car-name">
+                                <strong>KIA Sorento 2.5 CRDI АКПП</strong>
+                            </div>
+                            <div class="date-offer d_flex j_content_between">
+                                <div class="creation-date">
+                                    <p class="d_flex a_items_center">2017 <span></span> 156 тыс. км. <span></span> 3 часа назад</p>
+                                </div>
+                                <div class="car-offer d_flex j_content_between a_items_center">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#time"></use>
+                                    </svg>
+                                    <strong>Ожидает предложений</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-about__car">
+                            <p>Старое дизельное корыто заглохло прям с утра, не знаю что написать на две строки, но очень нужно показать это на примере в макете. Нужно провестти диагностику и заменить прокладку между рулем и сиденьем.</p>
+                        </div>
+                    </div>
+                    <div class="offer-block__type">
+                        <div class="car-model d_flex j_content_between a_items_center">
+                            <div class="car-name">
+                                <strong>Volkswagen Passat b7 2018</strong>
+                            </div>
+                            <div class="date-offer d_flex j_content_between">
+                                <div class="creation-date">
+                                    <p class="d_flex a_items_center">2017 <span></span> 156 тыс. км. <span></span> 3 часа назад</p>
+                                </div>
+                                <div class="car-offer d_flex j_content_between a_items_center">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#list"></use>
+                                    </svg>
+                                    <strong>Получено предложений: <i>23</i></strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-about__car">
+                            <p>Заменить ДСГ на моем супер-автомобиле немецкого концерна</p>
+                        </div>
+                    </div>
+                    <div class="offer-block__type">
+                        <div class="car-model d_flex j_content_between a_items_center">
+                            <div class="car-name">
+                                <strong>Volkswagen Passat b7 2018</strong>
+                            </div>
+                            <div class="date-offer d_flex j_content_between">
+                                <div class="creation-date">
+                                    <p class="d_flex a_items_center">2017 <span></span> 156 тыс. км. <span></span> 3 часа назад</p>
+                                </div>
+                                <div class="car-offer offer-done d_flex j_content_between a_items_center">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#tick"></use>
+                                    </svg>
+                                    <strong>Заявка выполнена</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-about__car">
+                            <p>Заменить ДСГ на моем супер-автомобиле немецкого концерна</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================= -HTML5-OFFER-END- ======================= -->
+    <!-- ====================== -HTML5-CAR-SERVICES-START- ======================= -->
+    <section class="car-services">
+        <div class="container">
+            <div class="car-services__min">
+                <div class="car-services__block d_flex j_content_between ">
+                    <div class="comment-circle">
+                        <div class="comment-circle__block d_flex a_items_center j_content_center">
+                            <svg class="comment-circle__block--svg" viewBox="0 0 38 38">
+                                <defs>
+                                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color: rgb(82,174,2)" />
+                                        <stop offset="100%" style="stop-color: rgb(77,164,2)" />
+                                    </linearGradient>
+                                </defs>
+                                <circle style="stroke-dasharray: 98 100" cx="19" cy="19" r="15.9"></circle>
+                            </svg>
+                            <div class="comment-circle__block--number">
+                                <p>98%</p>
+                                <span>Положительных</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-services__info">
+                        <div class="car-services__title">
+                            <h3><strong>Более 1400 отзывов</strong> об автосервисах от наших довольных автолюбителей</h3>
+                        </div>
+                        <div class="car-services__href">
+                            <ul class="d_flex a_items_center j_content_between f_wrap">
+                                <li class="car-services--active"><a href="#">все отзывы</a></li>
+                                <li><a href="#">положительные</a></li>
+                                <li><a href="#">нейтральные</a></li>
+                                <li><a href="#">отрицательные</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-services__box d_flex j_content_between">
+                    <div class="vladimir-nikiforov d_flex j_content_center a_items_center">
+                        <div class="vladimir-nikiforov__img img-static" style="background-image: url('assets/img/final/Lexus-logo.png')">
+                        </div>
+                    </div>
+                    <div class="vladimir-nikiforov__min">
+                        <div class="vladimir-nikiforov__min--title d_flex j_content_between a_items_start">
+                            <h3>Владимир Никифоров</h3>
+                            <div class="vladimir-nikiforov__min--star">
+                                <img src="assets/img/final/rating.png" alt="png">
+                            </div>
+                        </div>
+                        <div class="vladimir-nikiforov__car d_flex j_content_between">
+                            <p>Автомобиль: <strong>Lexus IS300 2012</strong> </p>
+                            <p>Автосервис: <a href="#"><strong>BRC Autotech </strong></a> (304 отзывов)</p>
+                            <span>24.08.2019</span>
+                        </div>
+                        <div class="vladimir-nikiforov__car--text">
+                            <p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых
+                                людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на
+                                русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-services__box d_flex j_content_between">
+                    <div class="vladimir-nikiforov d_flex j_content_center a_items_center">
+                        <div class="vladimir-nikiforov__img img-static" style="background-image: url('assets/img/final/bmw_logo.png')">
+                        </div>
+                    </div>
+                    <div class="vladimir-nikiforov__min">
+                        <div class="vladimir-nikiforov__min--title d_flex j_content_between a_items_start">
+                            <h3>Иван Степанчук</h3>
+                            <div class="vladimir-nikiforov__min--star">
+                                <img src="assets/img/final/rating-2.png" alt="png">
+                            </div>
+                        </div>
+                        <div class="vladimir-nikiforov__car d_flex j_content_between">
+                            <p>Автомобиль: <strong>Lexus IS300 2012</strong> </p>
+                            <p>Автосервис: <a href="#"><strong>BRC Autotech </strong></a> (304 отзывов)</p>
+                            <span>24.08.2019</span>
+                        </div>
+                        <div class="vladimir-nikiforov__car--text">
+                            <p>
+                                Идейные соображения высшего порядка, а также укрепление и развитие структуры требуют определения и уточнения дальнейших
+                                направлений развития. Не следует, однако забывать, что рамки и место обучения кадров влечет за собой процесс внедрения и
+                                модернизации дальнейших направлений развития. Идейные соображения высшего порядка, а также постоянный количественный рост и
+                                сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует насущным потребностям.
+                            </p>
+                            <p>
+                                предложений. Разнообразный и богатый опыт сложившаяся структура организации представляет собой интересный эксперимент проверки систем массового
+                                участия. Товарищи! постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки существенных
+                                финансовых и административных условий.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-services__box d_flex j_content_between">
+                    <div class="vladimir-nikiforov d_flex j_content_center a_items_center">
+                        <div class="vladimir-nikiforov__img img-static" style="background-image: url('assets/img/final/kia-logo.png')">
+                        </div>
+                    </div>
+                    <div class="vladimir-nikiforov__min">
+                        <div class="vladimir-nikiforov__min--title d_flex j_content_between a_items_start">
+                            <h3>Герман Иванович Петров</h3>
+                            <div class="vladimir-nikiforov__min--star">
+                                <img src="assets/img/final/rating-3.png" alt="png">
+                            </div>
+                        </div>
+                        <div class="vladimir-nikiforov__car d_flex j_content_between">
+                            <p>Автомобиль: <strong>Lexus IS300 2012</strong> </p>
+                            <p>Автосервис: <a href="#"><strong>BRC Autotech </strong></a> (304 отзывов)</p>
+                            <span>24.08.2019</span>
+                        </div>
+                        <div class="vladimir-nikiforov__car--text">
+                            <p>Прикольно, мне очень понравилось</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-more__reviews d_flex j_content_between">
+                    <div class="see-more__reviews--but btn-br">
+                        <button>смотреть больше отзывов</button>
+                    </div>
+                    <div class="see-more__reviews--btn btn-bg">
+                        <button>Создать заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================== -HTML5-CAR-SERVICES-END- ======================= -->
+    <!-- ======================= -HTML5-MAP-START- ======================= -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-block">
+                <div class="section-title">
+                    <h3><strong>Только проверенные</strong> автосервисы
+                        в городах России</h3>
+                </div>
+                <div class="map-img">
+                    <img src="assets/img/map/map.png" alt="map">
+                    <div class="city-position">
+                        <p>Краснодар</p>
+                        <span>300 автосервисов</span>
+                    </div>
+                    <div class="city-position">
+                        <p>Сочи</p>
+                        <span>300 автосервисов</span>
+                    </div>
+                </div>
+                <div class="btn-br map-btn">
+                    <button>СМОТРЕТЬ ВСЕ</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ======================== -HTML5-MAP-END- ======================== -->
+    <!-- ====================== -HTML5-OFFER-AND-SAVE-START- ======================= -->
+    <section class="leave-request__bg offer-and__block img-static" style="background-image: url('assets/img/final/Layer-5.png')">
+        <div class="container">
+            <div class="offer-and-save d_flex j_content_center a_items_center">
+                <div class="leave-request__info">
+                    <div class="leave-request__title">
+                        <h1>Оставьте заявку и получите предложения
+                            по ремонту от автосервисов!</h1>
+                        <p>Выбирайте <strong> самое выгодное </strong>предложение и <strong> экономьте до 42% </strong>от стоимости ремонта!</p>
+                    </div>
+                    <div class="leave-request__block d_flex j_content_between a_items_center">
+                        <form>
+                            <label>
+                                <div class="leave-request__block__but btn-bg">
+                                    <button>Создать заявку</button>
+                                </div>
+                                <input type="text" placeholder="Я хочу отремонтировать...">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="leave-request__text">
+                        <p>Например: <a href="" #>замена ступицы</a> или <a href="#"> заправка кондиционера</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================== -HTML5-OFFER-AND-SAVE-END- ======================= -->
+    <!-- ====================== -HTML5-FOOTER-START- ======================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-min d_flex j_content_between a_items_start">
+                <div class="footer-min__menu">
+                    <ul class="d_flex j_content_between f_wrap">
+                        <li><span>Навигация:</span></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Оферта</a></li>
+                        <li><a href="#">Отзывы о автосервисах</a></li>
+                        <li><a href="#">Автосервисам</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Акции автосервисов</a></li>
+                    </ul>
+                </div>
+                <div class="footer-min__menu">
+                    <ul>
+                        <li><span>Пользователям:</span></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Оферта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <p>наши контакты:</p>
+                    <div class="footer-block__href">
+                        <a href="tel: +7 948 455 74 59;">+7 948 455 74 59</a>
+                        <a href="mailto: support@cardoc.ru;">support@cardoc.ru</a>
+                    </div>
+                    <div class="footer-block__href--icon d_flex">
+                        <a href="https://play.google.com"><img src="assets/img/icons/Google_Play.png" alt="png"></a>
+                        <a href="https://www.apple.com"><img src="assets/img/icons/box.png" alt="png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-rights__reserved">
+            <div class="container">
+                <div class="all-rights__reserved--min d_flex j_content_between a_items_center">
+                    <div class="all-rights__reserved--text">
+                        <p>2019 © CarDoc. Все права защищены.</p>
+                    </div>
+                    <div class="all-rights__reserved--icon">
+                        <ul class="d_flex j_content_between">
+                            <li><a href="" style="background-image: url('assets/img/icons/instagram.png')"></a></li>
+                            <li><a href="" style="background-image: url('assets/img/icons/vk.png')"></a></li>
+                            <li><a href="" style="background-image: url('assets/img/icons/facebook.png')"></a></li>
+                            <li><a href="" style="background-image: url('assets/img/icons/youtube.png')"></a></li>
+                        </ul>
+                    </div>
+                    <div class="made-in d_flex j_content_between a_items_center">
+                        <p>Сделано в</p>
+                        <div class="made-in__logo">
+                            <img src="assets/img/icons/vector-smart.png" alt="png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====================== -HTML5-FOOTER-END- ======================= -->
+    <!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+    <!-- ======================= -SCRIPT-MY-START- ======================= -->
+    <script src="assets/js/script.js"></script>
+    <!-- ======================== -SCRIPT-MY-END- ======================== -->
+</body>
+
+</html>
